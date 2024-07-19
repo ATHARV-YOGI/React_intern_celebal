@@ -1,0 +1,43 @@
+body {
+    background: rgb(194, 194, 207);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    );
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .container > form {
+    position: relative;
+    top:90px;
+    width: 90%;
+    border: 1px solid #1a1717;
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+    background: #313030;
+    color: aliceblue;
+  }
+  
+  button {
+    margin-left: 20px;
+    background: #0ed30e !important;
+    color: white;
+  }
+  p {
+    color: rgb(205, 227, 34);
+  }
+
+  
+  
+  
